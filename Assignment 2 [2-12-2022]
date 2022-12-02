@@ -1,0 +1,12 @@
+def elgvote(num):
+    if num >= 18:
+      return True    
+    else:
+      return False
+    
+a=int(input())
+
+if elgvote(a):
+    print("yes")
+else:
+    print("no")
