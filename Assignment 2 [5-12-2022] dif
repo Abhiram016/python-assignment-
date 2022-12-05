@@ -1,0 +1,7 @@
+inputsz=int(input())
+lst1=[]
+for i in range(0, inputsz):
+    ele = int(input())
+    lst1.append(ele)
+lst1.sort()
+print(lst1[4]-lst1[0])
