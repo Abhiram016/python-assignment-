@@ -1,0 +1,7 @@
+num=int(input())
+num3=0
+while(num>0):
+	num2=num%10
+	num3=(num3*10)+num2
+	num=num//10
+print(num3)
