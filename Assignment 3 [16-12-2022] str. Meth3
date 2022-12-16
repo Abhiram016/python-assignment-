@@ -1,0 +1,6 @@
+n=input("enter a string : ")
+flag=0
+for i in range(0,len(n)):
+	if n[i].isdigit():
+		flag=flag+1
+print (flag)
