@@ -1,0 +1,5 @@
+n=input("enter a string : ")
+print (len(n))
+print (n.upper())
+print (n.lower())
+print (n.swapcase())
