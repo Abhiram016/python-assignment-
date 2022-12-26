@@ -1,0 +1,7 @@
+def is_leap(year1,year2):
+    for i in range(year1,year2):
+        if i%4==0 and( i%400==0 or i%100!=0):
+            print(i)
+year1 = int(input("enter starting year: " ))
+year2 = int(input("enter last year:"))
+is_leap(year1,year2)
