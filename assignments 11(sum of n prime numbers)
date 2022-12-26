@@ -1,0 +1,17 @@
+def leap(num):
+    flag=0
+    for i in range(1,num+1):
+        if num%i==0:
+            flag=flag+1
+    if flag==2:
+        return True
+    else:
+        return False
+num1=int(input("enter starting number : " ))
+num2=int(input("enter last number : "))
+sum=0
+while num1<num2:
+    if leap(num1):
+        sum+=1
+    num1+=1
+print(sum)
