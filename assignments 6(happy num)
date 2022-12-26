@@ -1,0 +1,15 @@
+def hpynum(num):
+        sec=0
+        while num>0:
+        	   num1=num%10
+        	   sec=sec+(num1**2)
+        	   num//=10
+        return sec 
+num=int(input())
+real=num
+while num>9:
+	num=hpynum(num)
+if num==1 or num==7:
+    print(real, "number is happy number")
+else:
+    print(real, "number is not happy number")
