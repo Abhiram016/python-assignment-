@@ -1,0 +1,7 @@
+list1=list(map(int,input().split()))
+list2=set(list1)
+list3=list(list2)
+if len(list1)==len(list3):
+     print("list is unique")
+else:
+        print("list is not unique")    
