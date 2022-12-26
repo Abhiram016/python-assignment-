@@ -1,0 +1,9 @@
+num=int(input())
+numin=num
+num2=[]
+while num>0:
+	num1=num%10
+	num2.append(num1)
+	num=num//10
+print("max number is : ",max(num2))
+print("min number is : ",min(num2))
