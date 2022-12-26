@@ -1,0 +1,7 @@
+num=int(input())
+sqrt=num**0.5
+print(sqrt)
+if sqrt>10:
+    print("hello" )
+else:
+    print("hi")
