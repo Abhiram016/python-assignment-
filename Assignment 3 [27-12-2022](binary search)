@@ -1,0 +1,16 @@
+num=int(input("enter size: " ))
+lst1=list(map(int,input('enter elements: ').split()))
+sele=int(input())
+high=num-1
+low=0
+mid=(high+low)//2
+while high>=low:
+    if sele==lst1[mid]:
+        print("element found at :",mid)
+        break
+    elif sele>lst1[mid]:
+        low=mid+1
+        mid=(high+low)//2
+    elif sele<lst1[mid]:
+        high=mid-1
+        mid=(high+low)//2
