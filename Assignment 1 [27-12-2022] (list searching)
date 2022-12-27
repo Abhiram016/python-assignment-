@@ -1,0 +1,11 @@
+num=int(input())
+lst1=list(map(int,input().split()))
+sele=int(input())
+for i in lst1:
+    if sele==i:
+        flag=1
+        break
+if flag==1:
+        print("element is found at ",i,"index" )
+else:
+        print("element not found")
