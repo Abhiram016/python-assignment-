@@ -1,0 +1,6 @@
+num=int(input("enter size: " ))
+lst1=list(map(int,input('enter elements: ').split()))
+sele=int(input())
+for i in range(0,len(lst1)):
+    if sele==lst1[i]:
+        print(i)
