@@ -1,0 +1,8 @@
+num=int(input())
+num1=num-1
+lst=[]
+while(num1>0):
+	lst.append(num1%10)
+	num1//=10
+lst.reverse()
+print(lst)
