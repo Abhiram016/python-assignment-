@@ -1,0 +1,7 @@
+num=int(input())
+lst=list(map(int,input().split()))
+start=0
+last=len(lst)
+mid=(start+last)//2
+lst2=lst[last:mid:-1]
+print((lst[0:mid+1],lst2)
