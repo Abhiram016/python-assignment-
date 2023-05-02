@@ -1,0 +1,13 @@
+lst=list(map(int,input().split()))
+minn=min(lst)
+maxx=max(lst)
+print(maxx)
+print(minn)
+
+'''
+1 2 3 3 4 5
+5
+1
+
+[Program finished]
+'''
