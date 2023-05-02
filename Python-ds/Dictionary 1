@@ -1,0 +1,16 @@
+dict={}
+n=int(input("enter no of players"))
+for i in range(0,n):
+	pno=int(input(" enter player number :"))
+	pname=input("enter player name :")
+	dict[pno]=pname
+print(dict)
+
+'''
+enter no of players1
+ enter player number :10
+enter player name :ram
+{10: 'ram'}
+
+[Program finished]
+'''
