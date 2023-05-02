@@ -1,0 +1,17 @@
+lst=list(map(int,input().split()))
+dict={}
+for i in lst:
+	if i not in dict:
+		dict[i]=1
+	else:
+		dict[i]+=1
+minn=min(dict.values())
+for i in dict:
+		if dict[i] == minn:
+			print(i)
+'''
+1 2 3 4 5 1 2 3 2 4
+5
+
+[Program finished]
+'''
