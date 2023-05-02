@@ -1,0 +1,31 @@
+dict={}
+n=int(input("enter no of students"))
+for i in range(0,n):
+	l=[]
+	sno=int(input(" enter student number :")) 
+	l.append(input("enter student name :"))
+	l.append(input("enter student group :"))
+	l.append(input(" college :"))
+	l.append(input(" enter student number:"))
+	dict[sno]=l
+sno=int(input("enter student no to view"))
+print("student name :"+dict[sno][0])
+print("student group :"+dict[sno][1])
+print("student college :"+dict[sno][2])
+print("student number :"+dict[sno][3])
+
+'''
+enter no of students1
+ enter student number :12
+enter student name :ram
+enter student group :bca
+ college :adc
+ enter student number:999999
+enter student no to view12
+student name :ram
+student group :bca
+student college :adc
+student number :999999
+
+[Program finished]
+'''
