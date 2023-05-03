@@ -1,0 +1,29 @@
+dict={}
+num=int(input())
+for i in range(num):
+	st=list(map(str,input().split()))
+	dict[st[0]]=st[1]
+for i in range(num):
+	ch=input()
+	if ch in dict:
+		print(ch+ " "+dict[ch]+ " the exam")
+	else:
+		print("no result found")
+
+"""
+4
+ram pass
+uma fail
+sita pass
+ravan fail
+ram
+ram pass the exam
+sita
+sita pass the exam
+ravan
+ravan fail the exam
+sarat
+no result found
+
+[Program finished]
+"""
