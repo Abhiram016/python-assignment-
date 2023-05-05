@@ -1,0 +1,25 @@
+class palin:
+    def ispal(self, y):
+        aftern=0
+        befn=y
+        while (y>0):
+            a=y%10
+            aftern=(aftern*10)+a
+            y=y//10
+        
+        if befn==aftern:
+            return True
+        else:
+            return False
+obj=palin()
+y=int(input())
+n=obj.ispal(y)
+if n is True:
+    print("istrue")
+else:
+    print("is not true" )
+
+'''
+2002
+istrue
+'''
