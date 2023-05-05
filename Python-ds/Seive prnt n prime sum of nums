@@ -1,0 +1,22 @@
+import math
+lst=[]
+n=int(input("enter number of prime nums"))
+n=n+1
+for i in range(0,n):
+    lst.append(1)
+m=int(math.sqrt(n))
+for i in range(2,m+1):
+    if lst[i]==1:
+        for j in range(i*i, n, i):
+            lst[j]=0
+a=0
+for i in range(2,n):
+    if lst[i]==1:
+        a+=i
+print(a)
+
+'''
+enter number of prime nums50
+328
+
+'''
